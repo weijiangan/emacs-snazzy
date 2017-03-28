@@ -7,7 +7,9 @@
 
 Add `snazzy-theme.el` to your `load-path` and add the following line to your `init.el`
 
-```(load-theme 'base16-snazzy t)```
+```elisp
+(load-theme 'snazzy-theme t)
+```
 
 
 ## Related
