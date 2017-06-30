@@ -5,11 +5,18 @@
 
 ## Install
 
-Add `snazzy-theme.el` to your `load-path` and add the following line to your `init.el`
+<!-- Add `snazzy-theme.el` to your `load-path` and add the following line to your `init.el` -->
+1. Install `base16-theme` from MELPA.
+2. Copy `snazzy-theme.el` to your base16-theme install folder in `~/.emacs.d/elpa/`.
+3. Byte-compile `snazzy-theme.el`.
+4. Run `update-directory-autoloads` and output to `base16-theme-autoloads`.
+5. Add the following line to your `init.el`.
 
 ```elisp
-(load-theme 'snazzy-theme t)
+(load-theme 'snazzy t)
 ```
+
+I understand it's a little complicated to setup now, but I promise I will look more into this when I have the time to make it simpler, preferrably installable from MELPA.
 
 
 ## Related
@@ -20,7 +27,7 @@ Add `snazzy-theme.el` to your `load-path` and add the following line to your `in
 
 
 ## Credits
-This color scheme is originally by [Sindre Sorhus](https://sindresorhus.com), I merely adapted this for Emacs and decided to share it for those who are looking for this color scheme for Emacs.
+This color scheme is originally by [Sindre Sorhus](https://sindresorhus.com). I merely adapted his theme for Emacs and decided to share it for those who are looking for this color scheme for Emacs, as well as to learn to create my own Emacs package.
 
 
 ## Contributing
