@@ -11,7 +11,7 @@
 
 (require 'base16-theme)
 
-(defvar snazzy-theme-colors
+(defvar snazzy-colors
   '(:base00 "#1e1f29"
     :base01 "#34353e"
     :base02 "#4a4b53"
@@ -31,13 +31,13 @@
   "All colors for Snazzy theme are defined here.")
 
 ;; Define the theme
-(deftheme snazzy-theme)
+(deftheme snazzy)
 
 ;; Add all the faces to the theme
-(base16-theme-define 'snazzy-theme snazzy-theme-colors)
+(base16-theme-define 'snazzy snazzy-colors)
 
 ;; Mark the theme as provided
-(provide-theme 'snazzy-theme)
+(provide-theme 'snazzy)
 
 (provide 'snazzy-theme)
 
