@@ -34,5 +34,5 @@ Since I did not create this color scheme, feel free to create a pull request to 
 
 ## License
 
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)  
 GPLv3 © [Wei Jian Gan](http://weijiangan.me)
