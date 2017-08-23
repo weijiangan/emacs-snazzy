@@ -39,6 +39,13 @@
 ;; Mark the theme as provided
 (provide-theme 'snazzy)
 
+;;;###autoload
+(and load-file-name
+     (boundp 'custom-theme-load-path)
+     (add-to-list 'custom-theme-load-path
+                  (file-name-as-directory
+                   (file-name-directory load-file-name))))
+
 (provide 'snazzy-theme)
 
 ;;; snazzy-theme.el ends here
