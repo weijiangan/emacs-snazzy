@@ -1,11 +1,37 @@
-;; snazzy-theme.el -- An elegant Emacs theme with bright colors
+;;; snazzy-theme.el --- An elegant Emacs theme with bright colors  -*- lexical-binding: t; -*-
 
-;;; Commentary:
-;; Snazzy-theme: (https://github.com/harrygeez/emacs-snazzy)
+;; Copyright (C) 2017 Wei Jian Gan <weijiangan@outlook.com>
 
 ;;; Authors:
 ;; Scheme: Sindre Sorhus (https://sindresorhus.com/)
 ;; Template: Kaleb Elwert <belak@coded.io>
+
+;; Keywords: faces, theme, color, snazzy
+;; URL: https://github.com/weijiangan/emacs-snazzy/
+;; Version: 1.0
+;; Package-Requires: ((base16-theme))
+
+;; This file is not a part of GNU Emacs.
+
+;;; License:
+
+;; This program is free software: you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
+;;
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+;;
+;; You should have received a copy of the GNU General Public License
+;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+;;; Commentary:
+
+;; Add this one-liner to your init.el:
+;; (load-theme 'snazzy t)
 
 ;;; Code:
 
