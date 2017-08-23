@@ -1,4 +1,4 @@
-;;; snazzy-theme.el --- An elegant Emacs theme with bright colors  -*- lexical-binding: t; -*-
+;;; snazzy-theme.el --- An elegant syntax theme with bright colors  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2017 Wei Jian Gan <weijiangan@outlook.com>
 
@@ -9,7 +9,7 @@
 ;; Keywords: faces, theme, color, snazzy
 ;; URL: https://github.com/weijiangan/emacs-snazzy/
 ;; Version: 1.0
-;; Package-Requires: ((base16-theme))
+;; Package-Requires: ((emacs "24") (base16-theme "2.1"))
 
 ;; This file is not a part of GNU Emacs.
 
@@ -37,7 +37,7 @@
 
 (require 'base16-theme)
 
-(defvar snazzy-colors
+(defvar snazzy-theme-colors
   '(:base00 "#1e1f29"
     :base01 "#34353e"
     :base02 "#4a4b53"
@@ -60,7 +60,7 @@
 (deftheme snazzy)
 
 ;; Add all the faces to the theme
-(base16-theme-define 'snazzy snazzy-colors)
+(base16-theme-define 'snazzy snazzy-theme-colors)
 
 ;; Mark the theme as provided
 (provide-theme 'snazzy)
