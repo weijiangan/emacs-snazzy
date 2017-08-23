@@ -7,16 +7,14 @@
 
 <!-- Add `snazzy-theme.el` to your `load-path` and add the following line to your `init.el` -->
 1. Install `base16-theme` from MELPA.
-2. Copy `snazzy-theme.el` to your base16-theme install folder in `~/.emacs.d/elpa/`.
-3. Byte-compile `snazzy-theme.el`.
-4. Run `update-directory-autoloads` and output to `base16-theme-autoloads`.
-5. Add the following line to your `init.el`.
+2. Install `snazzy-theme.el` by running `M-x package-install-file` and point to the file.
+3. Add the following line to your `init.el`.
 
 ```elisp
 (load-theme 'snazzy t)
 ```
 
-I understand it's a little complicated to setup now, but I promise I will look more into this when I have the time to make it simpler, preferrably installable from MELPA.
+I am in the process of making a request to add this to the MELPA repository. Hopefully we won't have to install this manually in the future!
 
 
 ## Related
@@ -36,4 +34,4 @@ Since I did not create this color scheme, feel free to create a pull request to 
 
 ## License
 
-MIT © [Wei Jian Gan](http://harrygeez.github.io)
+GPLv3 © [Wei Jian Gan](http://weijiangan.me)
