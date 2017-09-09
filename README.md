@@ -2,6 +2,7 @@
 
 > Elegant Emacs theme with bright colors
 
+![](screenshot.png)
 
 ## Install
 
