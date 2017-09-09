@@ -5,16 +5,24 @@
 
 ## Install
 
+### Manually
+
 <!-- Add `snazzy-theme.el` to your `load-path` and add the following line to your `init.el` -->
-1. Install `base16-theme` from MELPA.
+1. Install `base16-theme` from MELPA/manually.
 2. Install `snazzy-theme.el` by running `M-x package-install-file` and point to the file.
 3. Add the following line to your `init.el`.
 
 ```elisp
 (load-theme 'snazzy t)
 ```
+### MELPA
+This theme is now on [MELPA](https://melpa.org/#/getting-started)! Run the following command
+```
+M-x package-install
+```
+and enter `snazzy-theme`. Voila!
 
-I am in the process of making a request to add this to the MELPA repository. Hopefully we won't have to install this manually in the future!
+(You might need run `M-x package-refresh-contents` first)
 
 
 ## Related
